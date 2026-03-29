@@ -15,7 +15,7 @@ This API provides full CRUD (Create, Read, Update, Delete) functionality and adv
 
 ##  Architecture 
 
-The application is built using MVC architecture to ensure clean separation of concerns, modularity, and maintainability:
+The application is built using 3-Tier architecture to ensure clean separation of concerns, modularity, and maintainability:
 * **Controller Layer:** Manages routing and handles incoming HTTP REST requests and responses.
 * **Service Layer:** Encapsulates the core business logic and data processing.
 * **Repository Layer:** Interfaces directly with the PostgreSQL database utilizing Spring Data JPA for data persistence.
